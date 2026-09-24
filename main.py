@@ -14,4 +14,3 @@ app.include_router(order_router)
 
 # endpoint: é a URL que o usuário vai acessar para interagir com a API.
 # ex: /ordens -> path, caminho para acessar a API de ordens. 
-
