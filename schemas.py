@@ -19,3 +19,9 @@ class UsuarioSchema(BaseModel):
     class Config:
         from_attributes = True
         # Permite transformar um objeto do banco em uma resposta baseada nessa Schema.
+        
+class PedidoSchema(BaseModel):
+    id_usuario: int
+    
+    class Config:
+        from_attributes = True

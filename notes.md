@@ -179,3 +179,12 @@ Banco de dados
     # Lançando uma exceção com raise
     raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail='Mensagem de erro')
 ```
+
+
+## 🔐 JWT - JSON Web Tokens
+
+- Forma de dentificar e autenticar usuário em uma aplicação
+
+- Podemos controlar a duração do token.
+
+
